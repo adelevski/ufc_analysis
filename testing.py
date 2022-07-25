@@ -11,15 +11,15 @@ for column in df.columns:
     print(column)
 
 
-# Printing all columns about the Red fighter
-for column in df.columns:
-    if column.startswith("R_"):
-        print(column)
+# # Printing all columns about the Red fighter
+# for column in df.columns:
+#     if column.startswith("R_"):
+#         print(column)
 
 
-# Printing general columns (not about either fighter)
-for column in df.columns:
-    if not column.startswith("R_") and not column.startswith("B_"):
-        print(column)
+# # Printing general columns (not about either fighter)
+# for column in df.columns:
+#     if not column.startswith("R_") and not column.startswith("B_"):
+#         print(column)
 
 
