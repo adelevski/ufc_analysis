@@ -21,3 +21,5 @@ for column in df.columns:
 for column in df.columns:
     if not column.startswith("R_") and not column.startswith("B_"):
         print(column)
+
+
